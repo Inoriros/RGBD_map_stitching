@@ -26,7 +26,7 @@ if __name__ == "__main__":
     parser.add_argument('--remove_ground', default=False, help='Remove the ground when making global map')
     parser.add_argument('--create_submap', default=True, help='Create submaps from global map')
     parser.add_argument('--save_pcd', default=False, help='Save submaps in pcd format')
-    parser.add_argument('--tartanPath', default='/home/jared/Large_datasets/data/P', help='Folder of the KITTI dataset')
+    parser.add_argument('--tartanPath', default='/home/jared/Large_datasets/data/P', help='Folder of the TartanAir dataset')
     parser.add_argument('--SubmapPath', default='/home/jared/Large_datasets/data/P', help='Folder of the Submap')
 
     args = parser.parse_args()
